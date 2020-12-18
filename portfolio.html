@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Portfolio Website" />
+    <meta name="keywords" content="Resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="Marco Wadeo" />
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="vendor/bootstrap-4.1.3/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+    <script src="vendor/modernizr.custom.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSPXJWGP8S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CSPXJWGP8S');
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            Marco Wadeo
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarbaropen"
+          aria-controls="navbarbaropen" aria-expanded="false" aria-label="Toggle navigation">
+          <span> </span>
+          <span> </span>
+          <span> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarbaropen">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="portfolio-section">
+      <div class="container mt-5">
+        <h2>Portfolio</h2>
+        <h5 class="description">My Works</h5>
+        <div class="section-content mt-3">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12">
+              <div class="portfolio-content">
+                <ul class="portfolio-filters">
+                  <li class="active">
+                    <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="category_mockups">Mockups</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="category_website">Websites</a>
+                  </li>
+                </ul>
+                <div class="portfolio-grid four-columns">
+                  <figure class="item lbaudio" data-groups='["category_all", "category_website"]'>
+                    <div class="portfolio-item-img">
+                      <img src="assets/img/portfolio/1.png" alt="Project 1" title="" />
+                      <a href="project-1.html" class="ajax-page-load"></a>
+                    </div>
+                    <h4 class="name">How Internet Works</h4>
+                    <span class="category">Website</span>
+                  </figure>
+                  <figure class="item lbaudio" data-groups='["category_all", "category_website"]'>
+                    <div class="portfolio-item-img">
+                      <img src="assets/img/portfolio/2.png" alt="Project 2" title="" />
+                      <a href="project-2.html" class="ajax-page-load"></a>
+                    </div>
+                    <h4 class="name">Cloud Technologies</h4>
+                    <span class="category">Website</span>
+                  </figure>
+                  <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
+                    <div class="portfolio-item-img">
+                      <img src="assets/img/portfolio/1.png" alt="Mockup Design 1" title="" />
+                      <a class="lightbox" title="Mockup Design 1" href="assets/img/portfolio/1.png"></a>
+                    </div>
+                    <i class="far fa-image"></i>
+                    <h4 class="name">Mockup Design 1</h4>
+                    <span class="category">Mockups</span>
+                  </figure>
+                  <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
+                    <div class="portfolio-item-img">
+                      <img src="assets/img/portfolio/2.png" alt="Mockup Design 2" title="" />
+                      <a class="lightbox" title="Mockup Design 1" href="assets/img/portfolio/2.png"></a>
+                    </div>
+                    <i class="far fa-image"></i>
+                    <h4 class="name">Mockup Design 1</h4>
+                    <span class="category">Mockups</span>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer" style="margin-top:200px;">
+      <div class="container">
+        <hr>
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by Marco Wadeo
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery.shuffle.min.js"></script>
+    <script src="vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+    <script src="vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="vendor/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

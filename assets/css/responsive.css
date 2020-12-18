@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+	.nav-item.active .nav-link:before {
+		content: "";
+		position: absolute;
+		width: 30px;
+		padding-top: 20px;
+		border-bottom: 2px solid var(--accent-clr);
+		border-radius: 2px;
+		bottom: unset;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.nav-item.active .nav-link:before {
+		content: "";
+		position: absolute;
+		width: 30px;
+		padding-top: 20px;
+		border-bottom: 2px solid var(--accent-clr);
+		border-radius: 2px;
+		bottom: unset;
+	}
+
+	.navbar .dropdown.border-left{
+		border: none !important;
+		padding-left: 0 !important;
+	}
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Portfolio Website" />
+    <meta name="keywords" content="Resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="Marco Wadeo" />
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="vendor/bootstrap-4.1.3/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSPXJWGP8S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CSPXJWGP8S');
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            Marco Wadeo
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarbaropen"
+          aria-controls="navbarbaropen" aria-expanded="false" aria-label="Toggle navigation">
+          <span> </span>
+          <span> </span>
+          <span> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarbaropen">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <section class="contact-section">
+      <div class="container mt-5">
+        <h2>Contact Me</h2>
+        <h5 class="description">Get in touch</h5>
+        <div class="row">
+          <div class="col-sm-12">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row m-0 mt-5">
+          <div class="col-xs-12 col-sm-4">
+            <div class="pb-3">
+              <div class="lm-info-block gray-default">
+                <i class="lnr lnr-phone-handset"></i>
+                <h4>+92-3034601932</h4>
+                <span class="lm-info-block-value"></span>
+                <span class="lm-info-block-text"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="col-inner bs-30">
+              <div class="lm-info-block gray-default">
+                <i class="lnr lnr-map-marker"></i>
+                <h4>United States of America</h4>
+                <span class="lm-info-block-value"></span>
+                <span class="lm-info-block-text"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="col-inner bs-30">
+              <div class="lm-info-block gray-default">
+                <i class="lnr lnr-checkmark-circle"></i>
+                <h4>Freelance Available</h4>
+                <span class="lm-info-block-value"></span>
+                <span class="lm-info-block-text"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 mb-5">
+      <div class="row m-0">
+        <div class=" col-xs-12 col-sm-8 offset-sm-1 offset-sm-2">
+          <div class="col-inner ts-20">
+            <div class="block-title">
+              <h3>How Can I Help You?</h3>
+            </div>
+            <form id="contact_form" class="contact-form">
+              <div class="messages"></div>
+              <div class="controls two-columns">
+                <div class="fields clearfix">
+                  <div class="left-column">
+                    <div class="form-group form-group-with-icon">
+                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                      <div class="form-control-border"></div>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group form-group-with-icon">
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                      <div class="form-control-border"></div>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group form-group-with-icon">
+                      <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
+                      <div class="form-control-border"></div>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="right-column">
+                    <div class="form-group form-group-with-icon">
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                      <div class="form-control-border"></div>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <input type="submit" class="button btn-send disabled" value="Send message">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="container">
+        <hr>
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by Marco Wadeo
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
